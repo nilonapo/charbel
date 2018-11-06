@@ -5,11 +5,13 @@ import { AppRoutingModule } from './modules/app-routing.module';
 import { AppComponent } from './app.component';
 import { MaterialModule } from './modules/material.module';
 import { MemberComponent } from './member/member.component';
+import { CashierComponent } from './cashier/cashier.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MemberComponent
+    MemberComponent,
+    CashierComponent
   ],
   imports: [
     BrowserModule,
